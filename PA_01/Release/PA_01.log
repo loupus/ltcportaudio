@@ -1,0 +1,39 @@
+﻿Build started 18.05.2016 15:30:37.
+     1>Project "C:\Users\hakansoyalp\documents\visual studio 2013\Projects\PA_01\PA_01\PA_01.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D "_CRT_SECURE_NO_WARNINGS" /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ltcaudio.c
+         ltcaudio.c
+     1>ltcaudio.c(12): warning C4098: 'doserial' : 'void' function returning a value
+     1>ltcaudio.c(128): warning C4047: 'function' : 'time_t' differs in levels of indirection from 'time_t *'
+     1>ltcaudio.c(128): warning C4024: 'difftime' : different types for formal and actual parameter 2
+     1>ltcaudio.c(159): warning C4047: 'function' : 'const char *' differs in levels of indirection from 'char (*)[8]'
+     1>ltcaudio.c(159): warning C4024: 'RS232_cputs' : different types for formal and actual parameter 2
+     1>ltcaudio.c(186): warning C4047: 'function' : 'paData *' differs in levels of indirection from 'paData (*)[4]'
+     1>ltcaudio.c(186): warning C4024: 'AllocateBuffers' : different types for formal and actual parameter 1
+     1>ltcaudio.c(293): warning C4101: 'defaultHighInputLatency' : unreferenced local variable
+     1>ltcaudio.c(288): warning C4101: 'hostApi' : unreferenced local variable
+     1>ltcaudio.c(286): warning C4101: 'structVersion' : unreferenced local variable
+     1>ltcaudio.c(292): warning C4101: 'defaultLowOutputLatency' : unreferenced local variable
+     1>ltcaudio.c(294): warning C4101: 'defaultHighOutputLatency' : unreferenced local variable
+     1>ltcaudio.c(287): warning C4101: 'name' : unreferenced local variable
+     1>ltcaudio.c(290): warning C4101: 'maxOutputChannels' : unreferenced local variable
+     1>ltcaudio.c(295): warning C4101: 'defaultSampleRate' : unreferenced local variable
+     1>ltcaudio.c(291): warning C4101: 'defaultLowInputLatency' : unreferenced local variable
+     1>ltcaudio.c(289): warning C4101: 'maxInputChannels' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hakansoyalp\documents\visual studio 2013\Projects\PA_01\Release\PA_01.exe" /NOLOGO winmm.lib dsound.lib portaudio_x86.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\hakansoyalp\documents\visual studio 2013\Projects\PA_01\Release\PA_01.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hakansoyalp\documents\visual studio 2013\Projects\PA_01\Release\PA_01.lib" /MACHINE:X86 /SAFESEH Release\decoder.obj
+         Release\encoder.obj
+         Release\ltc.obj
+         Release\ltcaudio.obj
+         Release\main.obj
+         Release\rs232.obj
+         Release\src2.obj
+         Release\timecode.obj
+         Generating code
+         Finished generating code
+         PA_01.vcxproj -> C:\Users\hakansoyalp\documents\visual studio 2013\Projects\PA_01\Release\PA_01.exe
+     1>Done Building Project "C:\Users\hakansoyalp\documents\visual studio 2013\Projects\PA_01\PA_01\PA_01.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.61
